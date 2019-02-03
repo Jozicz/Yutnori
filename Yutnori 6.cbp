@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Yutnori 6" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Yutnori 6" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Yutnori 6" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="class Move.cpp" />
+		<Unit filename="classBaton.cpp" />
+		<Unit filename="classBaton.h" />
+		<Unit filename="classMove.h" />
+		<Unit filename="classPawn.cpp" />
+		<Unit filename="classPawn.h" />
+		<Unit filename="functionDecidingOrder.cpp" />
+		<Unit filename="functionDecidingOrder.h" />
+		<Unit filename="functionDraw.cpp" />
+		<Unit filename="functionDraw.h" />
+		<Unit filename="functionGeneratingThrow.cpp" />
+		<Unit filename="functionGeneratingThrow.h" />
+		<Unit filename="functionPrintingResultsOfThrow.cpp" />
+		<Unit filename="functionPrintingResultsOfThrow.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

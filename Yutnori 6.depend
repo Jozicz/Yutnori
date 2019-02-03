@@ -1,0 +1,61 @@
+# depslib dependency file v1.0
+1549220520 source:f:\pulpit\codeblocks\projekty\yutnori 6\main.cpp
+	<iostream>
+	<Windows.h>
+	"classMove.h"
+	"classPawn.h"
+	"classBaton.h"
+	"functionDraw.h"
+	"functionGeneratingThrow.h"
+	"functionPrintingResultsOfThrow.h"
+
+1549218675 f:\pulpit\codeblocks\projekty\yutnori 6\classmove.h
+
+1549218950 source:f:\pulpit\codeblocks\projekty\yutnori 6\class move.cpp
+	<iostream>
+	"classMove.h"
+
+1549228543 source:f:\pulpit\codeblocks\projekty\yutnori 6\classpawn.cpp
+	"classPawn.h"
+
+1549218707 f:\pulpit\codeblocks\projekty\yutnori 6\classpawn.h
+
+1549218707 f:\pulpit\codeblocks\projekty\yutnori 6\classbaton.h
+
+1549218915 source:f:\pulpit\codeblocks\projekty\yutnori 6\classbaton.cpp
+	<iostream>
+	"classBaton.h"
+
+1549218871 source:f:\pulpit\codeblocks\projekty\yutnori 6\functiondraw.cpp
+	<iostream>
+	"functionDraw.h"
+
+1549218707 f:\pulpit\codeblocks\projekty\yutnori 6\functiondraw.h
+
+1549218707 f:\pulpit\codeblocks\projekty\yutnori 6\functiongeneratingthrow.h
+
+1549218829 source:f:\pulpit\codeblocks\projekty\yutnori 6\functiongeneratingthrow.cpp
+	<cstdlib>
+	<ctime>
+	<Windows.h>
+	"functionGeneratingThrow.h"
+	"classBaton.h"
+
+1549218990 source:f:\pulpit\codeblocks\projekty\yutnori 6\functionprintingresultsofthrow.cpp
+	<iostream>
+	<typeinfo>
+	"functionPrintingResultsOfThrow.h"
+
+1549218728 f:\pulpit\codeblocks\projekty\yutnori 6\functionprintingresultsofthrow.h
+	"classMove.h"
+
+1549220876 source:f:\pulpit\codeblocks\projekty\yutnori 6\functiondecidingorder.cpp
+	<cstdlib>
+	<iostream>
+	"functionDecidingOrder.h"
+	"functionGeneratingThrow.h"
+	"functionPrintingResultsOfThrow.h"
+
+1549220840 f:\pulpit\codeblocks\projekty\yutnori 6\functiondecidingorder.h
+	"classMove.h"
+

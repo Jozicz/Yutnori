@@ -353,7 +353,7 @@ int main()
         while(current_pawn -> get_strength()>0){
             if(m==5){
                 current_pawn -> finished_the_game();
-                Diagonal2[5]=0;
+                Diagonal2[5]=tmp_array1[0];
                 break;
             }
             tmp_array2[0]=Diagonal2[m+1];
